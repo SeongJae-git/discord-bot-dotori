@@ -5,7 +5,7 @@ const incubatorGuideEmbed = new EmbedBuilder()
     .setColor('#3498DB')
     .setTitle('🐣   프리미엄 부화기')
     .setDescription(
-        `올드서버 확률공개의 데이터들을 기반으로 한 부화기 뽑기입니다.\n부화기 1회 사용 당 100 도토리가 소모됩니다!`
+        `부화기 1회 사용 당 100 도토리가 소모됩니다!`
     )
     .setFooter({
         text: `※ 자세한 확률표는 디스코드의 '확률공개' 탭을 확인해주세요 ※`
