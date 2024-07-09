@@ -7,7 +7,7 @@ const descEmbed = new EmbedBuilder()
     .setFooter({
         text: `Data based on Reflex 95(+OLD 65)`,
     })
-    .setDescription(`※ 드랍률 1배 기준 데이터입니다. ※\n\n오류패치로 삭제된 아이템들은 알고 있는 선에서 제외하긴 했지만,\n실제 올드서버 드랍데이터와는 일부 차이가 있을 수 있습니다.`);
+    .setDescription(`※ 드랍률 1배 기준 데이터입니다. ※\n\n오류패치로 삭제된 아이템들은 알고 있는 선에서 제외하긴 했지만,\n실제 드랍데이터와는 일부 차이가 있을 수 있습니다.`);
 
 // 검색 결과 없음 임베드
 const notFoundEmbed = new EmbedBuilder().setColor('#ED4245').setTitle('검색 결과 없음!').setDescription(`검색 결과가 없습니다.`);
